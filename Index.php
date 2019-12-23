@@ -13,8 +13,8 @@
 </head>
 
 <link href="libary/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-<link href="js/scripts.js" rel="scripts">
 <link href="css/main.css" rel="stylesheet">
+
 
 <?php
 include("includes/header.php");
@@ -25,7 +25,7 @@ include("includes/header.php");
     <!----
      title
      ----->
-<section id="title" data-anchor="home">
+<section id="title">
     <div class="banner">
         <div id="image">
             <img src="img/title_cover.png" alt="">
@@ -37,7 +37,7 @@ include("includes/header.php");
     <!----
      quick info
      ----->
-<section id="info" data-anchor="about">
+<section id="info">
     <div class="con">
         <div class="info-text">Atcom is a high performance reservation and<br>e-commerce platform for the<a id="highlight"> leisure travel industry.</a></div>
     </div>
@@ -46,7 +46,7 @@ include("includes/header.php");
     <!----
      paragraphed info
      ----->
-<section id="para" data-anchor="solutions">
+<section id="para">
     <div class="para row">
         <div class="col-sm">
             <div class="lb-title">High Preformance Platforms</div>
@@ -66,7 +66,7 @@ include("includes/header.php");
     <!----
      Intro info
      ----->
-<section id="intro" data-anchor="travel">
+<section id="intro">
     <div class="intro-whole">
         <div class="col-lg intro">
             <div class="big-title">Introducing the Atcom Travel Suite</div>
@@ -112,7 +112,7 @@ include("includes/header.php");
     <!----
      link info
      ----->
-<section id="link" data-anchor="careers">
+<section id="link">
     <div class="link-whole">
         <div class="col-lg link">
             <div class="big-link-title">Your business is unique</div>
@@ -159,24 +159,58 @@ include("includes/header.php");
      customer info
      ----->
 
-<section id="customer" data-anchor="">
+<section id="customer">
     <div class="customer-container">
         <div class="customer-title">Our Customers</div>
         <div class="customer-content">From large vertically integrated groups to smaller specialist operators, our customers are powered by ATCORE's suite of bespoke solutions - tailored to their needs.</div>
         <div class="customer-images row">
-            <div class="customer-image-backarrow col"><img src="img/left-arrow.png" alt="left-arrow"></div>
-            <div class="customer-image col"><img src="img/Thomson-Logo.png" alt=""></div>
+            <div class="customer-image-backarrow col"><a id="left"><img src="img/left-arrow.png" alt="left-arrow"></div></a>
+            <div class="customer-image col"><img src="img/Thomson-Logo.png" alt="" id="thomson"></div>
             <div class="customer-image col"><img src="img/first-choice.png" alt=""></div>
             <div class="customer-image col"><img src="img/tui.png" alt=""></div>
             <div class="customer-image col"><img src="img/fritidsresor-logo.png" alt=""></div>
             <div class="customer-image col"><img src="img/Thomas-cook.png" alt=""></div>
-            <div class="customer-image-forwardarrow col"><img src="img/right-arrow.png" alt="right-arrow"></div>
+            <div class="customer-image-forwardarrow col"><img src="img/right-arrow.png" alt="right-arrow" id="right"></div>
         </div>
-</div>
+    </div> 
+</section>
 
- 
+    <!----
+     news info
+     ----->
+
+<section id="news">
+    <div class="news-big-title">Latest News</div>
+        <div class="news-container row">
+        <div class="col-sm">
+            <div class="box">
+                <div class="news-date">24 October 2016</div>
+                <div class="news-title">ATCORE achieves PCI DSS Level 1 compliance for another year</div>
+                <div class="news-content"><a href="">Read more >></a></div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div class="box">
+                <div class="news-date">10 August 2016</div>
+                <div class="news-title">Come and see us at fvw TravelExpo, Essen 6-7th September</div>
+                <div class="news-content"><a href="">Read more >></a></div>
+            </div>
+        </div> 
+        <div class="col-sm">
+            <div class="box">
+                <div class="news-date">4 August 2016</div>
+                <div class="news-title">Tigerbay announced as finalist in Travolution Awards 2016</div>
+                <div class="news-content"><a href="">Read more >></a></div>
+            </div>
+        </div>
 </section>
 
 </div>
 
+<?php
+include("includes/footer.php");
+?>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/scripts.js"></script>
 </html>

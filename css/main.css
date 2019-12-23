@@ -36,7 +36,7 @@ html {
     margin-top: 70px;
   }
   a {
-    color: #333333;
+    color: #ffffff;
     
   }
     
@@ -513,7 +513,7 @@ html {
 
 .customer-container{
   width: 1140px;
-  height:500px;
+  height:400px;
   position: absolute;
   text-align: center;
   background-color: #ffffff;  
@@ -556,7 +556,164 @@ html {
   margin-top: 50px;
 }
 #customer{
-  height:500px;
+  height:400px;
+}
+
+/*-------------
+# News Section
+---------------*/
+
+
+.news-big-title{
+  padding-top: 50px;
+  top: 50px;
+  font-size: 30px;
+  line-height: 35px;
+  font-style: bold;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+  color: #1f416c;
+}
+
+.box{
+  text-align: left;
+  position: absolute;
+ left :30px;
+  width:320px;
+  height:150px;
+  background-color: #ffffff; 
+}
+.news-date{
+  text-align: left;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 14px;
+  line-height: 16px;
+  font-style: bold;
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+  color: #1f416c;
+}
+.news-title{
+  text-align: left;
+  margin-top: 10px;
+  margin-left: 25px;
+  font-size: 18px;
+  line-height: 16px;
+  font-style: bold;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+  color: #1f416c;
+}
+.news-content a{
+  margin-top: 20px;
+  margin-left: 25px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 16px;
+  font-style: bold;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+  color: #87cedc;
+}
+
+.news-container{
+  margin-top: 50px;
+}
+
+#news{
+  width: 1140px;
+  height:370px;
+
+  text-align: center;
+  background-color: #f7f7f7f7;  
 }
 
 
+/*------
+# Footer 
+-------*/
+
+#footer {
+    height: 200px;
+    position: absolute;
+    background-color: #1f416c;
+    width:1140px;
+}
+
+.part-logo{
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+
+.statment{
+  color: #ffffff !important;
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+
+.link{
+  text-align: right;
+  color: #ffffff !important;
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+}
+
+.link a:hover{
+  color: #ffffff !important;
+}
+
+.email-title{
+  padding-top:30px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ffffff !important;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.submit-email{
+  padding-top:10px;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+}
+
+.submit-button{
+  width:80px;
+  height:40px;
+  padding-top: 2px;
+  color: #1f416c;
+  background-color: #87cedc;
+  border: none;
+}
+
+.submit-input{
+  height:40px;
+  width:200px;
+  border: none;
+}
+
+input[type="text"]
+{
+    font-size:16px;
+    font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+    padding-left: 10px;
+    color: #1f416c;
+}
+
+.contact{
+  padding-top:30px;
+  font-size:16px;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.contact-number{
+  
+  font-size:16px;
+  font-family: 'proxima_nova_rgregular', Helvetica, Arial, sans-serif;
+  padding-left: 10px;
+  color: #ffffff;
+}
+
+.contact-enq{
+  padding-left:10px;
+  padding-top:20px;
+  font-size: 16px;
+  font-style: bold;
+  font-family: 'proxima_nova_rgbold', Helvetica, Arial, sans-serif;
+  color: #87cedc;
+}
